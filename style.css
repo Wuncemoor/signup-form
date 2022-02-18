@@ -1,0 +1,139 @@
+@font-face {
+    font-family: viking;
+    src: url('./font/Norse-Bold.otf');
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.banner {
+    width: 35vw;
+    background-size: cover;
+    background-image: url('./img/sunset.jpg');
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.banner-logo {
+    display: flex;
+    background-color: black;
+    opacity: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    gap: 16px;
+    width: 35vw;
+    height: 20vh;
+}
+
+div.banner-credits {
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+}
+
+.banner-credits {
+    color: whitesmoke;
+    font-weight: 900;
+    text-align: center;
+
+}
+.logo {
+    height: 95%;
+}
+
+.psi {
+    font-size: 4rem;
+    font-family: viking;
+    color: whitesmoke;
+
+}
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Century Gothic';
+    width: 65vw;
+}
+
+.form-header {
+    background-color: whitesmoke;
+    height: 30vh;
+    padding: 32px;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column-reverse;
+    color: rgb(53, 33, 6);
+}
+
+.form-content {
+    padding: 32px;
+    background-color: white;
+    height: 30vh;
+}
+
+.form-footer {
+    padding: 32px;
+    background-color: whitesmoke;
+    height: 20vh;
+}
+
+legend {
+    font-size: 1.5rem;
+    color: rgb(53, 33, 6);
+}
+button {
+    background-color: rgb(179, 109, 19);
+    color: whitesmoke;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 1.5rem;
+    padding: 32px 64px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+
+}
+
+.brown {
+    color:rgb(53, 33, 6);
+}
+
+.get-brij {
+    color: rgb(179, 109, 19);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+fieldset {
+    border: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.field {
+    padding: 16px;
+}
+
+label {
+    font-size: 0.75rem;
+    color: rgb(179, 109, 19)
+}
+
+input {
+    border-color: #e5e7eb;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+:focus {
+    border-color: blue;
+    border-width: 1px;
+}
+

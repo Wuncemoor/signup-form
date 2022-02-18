@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <div class="banner-logo">
+                <img class='logo' src="./img/odin-lined.png">
+                <p class="psi">P S I</p>
+            </div>
+            <div class="banner-credits">
+                Photo by <a class='banner-credits' href='https://unsplash.com/@grafixgurl247'>Rachel Cook</a> on <a class='banner-credits' href='https://unsplash.com'>Unsplash</a>.
+            </div>
+        </div>
+        <div class="form">
+            <form action="./forms" method="post">
+            <div class="form-header">
+                Become a THRIVE member and start receiving MUNNY today!
+            </div>
+            <div class="form-content">
+                
+                <div class="content">
+
+                    <legend>Join Us!</legend>
+                    <fieldset>
+
+                        <div class="flex">
+                            <div class="field">
+                                <label for="firstName">*FIRST NAME</label></br>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="field">
+                                <label for="lastName">*LAST NAME</label></br>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                            <div class="field">
+                                <label for="email">*EMAIL</label></br>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="field">
+                                <label for="password">*PASSWORD</label></br>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+                            <div class="field">
+                                <label for="password-confirm">*PASSWORD CONFIRM</label></br>
+                                <input type="password" id="password-confirm" name="password-confirm" required>    
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="form-footer">
+                <button type="submit">Create Profile</button>
+                <p class="brown">Already Thriving? Get <a class='get-brij' href='./brij'>Brij</a></p>
+            </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
